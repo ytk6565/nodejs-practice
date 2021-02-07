@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+form ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+form ul li {
+  display: flex;
+}
+
+form ul li span {
+  width: 100px;
+}
+
+form button[type="submit"] {
+  margin-top: 20px;
+}
