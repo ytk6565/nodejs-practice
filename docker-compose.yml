@@ -26,6 +26,8 @@ services:
       - 8080:80
     networks:
       - database
+    depends_on:
+      - db
 
   app:
     image: node:12
