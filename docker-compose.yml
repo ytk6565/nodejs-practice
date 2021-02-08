@@ -1,4 +1,5 @@
 version: "3"
+
 services:
   db:
     image: mysql:5.7
@@ -10,7 +11,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - ./mysql/conf:/etc/mysql/conf.d/:ro
+      - ./mysql/conf:/etc/mysql/conf.d/
     networks:
       - database
       - backend
