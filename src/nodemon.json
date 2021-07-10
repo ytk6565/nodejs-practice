@@ -1,5 +1,4 @@
 {
   "watch": ["app.js", "routes", "middleware"],
-  "ext": "js",
-  "exec": "nodemon app.js"
+  "ext": "js"
 }
