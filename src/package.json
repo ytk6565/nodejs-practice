@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "ytk6565 <ytk6565@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "dev": "nodemon app.js"
   },
